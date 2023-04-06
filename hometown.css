@@ -1,0 +1,110 @@
+body {
+    margin: 0px;
+    font-family: 'Anuphan', sans-serif;
+
+}
+
+/* SKYLINE */
+#skyline_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(images/seattle_skyline.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#title_sky, #about_sky {
+    color: white;
+    border-radius: 6px;
+}
+
+#title_sky {
+    padding: 5px 10px;
+    background: #457B9D;
+    font-size: 4vw;
+    margin-top: 14vw;
+}
+
+#about_sky {
+    text-align: center;
+    padding: 5px 10px;
+    background: #1D3557;
+    margin: 10px 20vw;
+    font-size: 2vw;
+    margin-bottom: 12vw;
+}
+
+/* ACTIVITIES */
+#activities_section {
+    text-align: center;
+    background-color: #edffe5;
+}
+
+#title_act {
+    font-size: 3vw;
+    margin-top: 0px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+#activities {
+    font-size: 2vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.activity {
+    width: 25vw;
+}
+
+.act_image {
+    width: 16vw;
+    border-radius: 50%;
+    height: 16vw;
+}
+
+.activities_blurb {
+    font-size: 2vw;
+}
+
+/* GUIDE */
+#guide_section {
+    background-color: #A8DADC;
+    margin: 8vw auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    width: 50vw;
+    height: 32vw;
+
+    border-radius: 6px;
+}
+
+#image_guide {
+    width: 20vw;
+    height: 24vw;
+    margin: 2vw;
+    margin-right: 0.5vw;
+    border-radius: 6px;
+}
+
+#guide_info {
+    text-align: center;
+    margin: 1vw;
+}
+
+#title_guide {
+    font-size: 3.5vw;
+}
+
+#blurb_guide {
+    font-size: 2vw;
+}
+
+#credit_guide {
+    font-size: 2.5vw;
+}
